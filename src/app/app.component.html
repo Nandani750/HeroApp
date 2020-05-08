@@ -1,2 +1,13 @@
-<h1>{{title}}</h1>
-<app-hero></app-hero>
+
+<body>
+<h1 style="color: #333399;">{{title}}</h1>
+<app-hero-search></app-hero-search>
+
+<nav>
+    <a routerLink="/dashboard" style="color: white;font-size:25px;padding-left: 40px;">Dashboard</a>
+    <a routerLink="/hero" style="color: white;font-size:25px;padding-left: 40px;">Heroes</a> 
+</nav>
+<router-outlet></router-outlet>
+
+<app-messages></app-messages>
+</body>
